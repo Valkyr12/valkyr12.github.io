@@ -46,7 +46,7 @@
 }
 
 .banner {
-  background: url(images/banner.png) center 0 no-repeat;
+  background: url(/images/banner.png) center 0 no-repeat;
   background-size: cover;
   height: 585px;
 }
@@ -151,7 +151,7 @@
 
 .middle-section {
   height: 577px;
-  background-image: url(images/bg.png);
+  background-image: url(/images/bg.png);
   background-size: cover;
 }
 
@@ -341,7 +341,7 @@ th {
 
 td:before,
 th:before {
-  content: url(images/image.png);
+  content: url(/images/image.png);
   margin-right: 15px;
 }
 
@@ -378,7 +378,7 @@ th:before {
 }
 
 .testimonials {
-  background-image: url(images/background.png);
+  background-image: url(/images/background.png);
   height: 315px;
 }
 
@@ -454,7 +454,7 @@ th:before {
 
 .footer {
   width: 100%;
-  background: url(images/map.png) no-repeat;
+  background: url(/images/map.png) no-repeat;
   background-position: right;
   background-size: 50%;
 }
@@ -520,20 +520,20 @@ th:before {
 }
 
 .footer_content_contacts_row:first-child:before {
-  content: url(images/point.png);
+  content: url(/images/point.png);
   position: absolute;
   left: 20px;
 
 }
 
 .phone:before {
-  content: url(images/phone.png);
+  content: url(/images/phone.png);
   position: absolute;
   left: 25px;
 }
 
 .mail:before {
-  content: url(images/mail.png);
+  content: url(/images/mail.png);
   position: absolute;
   left: 20px;
 }
