@@ -25,8 +25,9 @@
 
 .header_table_li {
   display: inline-block;
-  margin-top: 77px;
+  margin-top: 72px;
   text-transform: uppercase;
+  font: 14px 'Poppins', sans-serif;
 }
 
 .header_table_ul {
@@ -45,7 +46,9 @@
 }
 
 .banner {
-  background: url(/images/banner.png) center 0 no-repeat;
+  background: url(images/banner.png) center 0 no-repeat;
+  background-size: cover;
+  height: 585px;
 }
 
 .content_banner {
@@ -148,7 +151,7 @@
 
 .middle-section {
   height: 577px;
-  background-image: url(/images/bg.png);
+  background-image: url(images/bg.png);
   background-size: cover;
 }
 
@@ -338,7 +341,7 @@ th {
 
 td:before,
 th:before {
-  content: url(/images/image.png);
+  content: url(images/image.png);
   margin-right: 15px;
 }
 
@@ -375,7 +378,7 @@ th:before {
 }
 
 .testimonials {
-  background-image: url(/images/background.png);
+  background-image: url(images/background.png);
   height: 315px;
 }
 
@@ -401,12 +404,14 @@ th:before {
 .testimonials_content_customer_mention {
   color: #666666;
   text-align: justify;
+  margin-top: -10px;
+  line-height: 20px;
 }
 
 .testimonials_content_mention {
   width: 364px;
   height: 98px;
-  padding: 0 15px 0 15px;
+  padding: 0 10px 0 15px;
   box-sizing: border-box;
   background-color: #f7f7f7;
   position: relative;
@@ -416,8 +421,8 @@ th:before {
 .testimonials_content_customer_name {
   color: #3070a8;
   font-style: italic;
-  border-bottom: 1px dashed #666666;
-  padding-bottom: 10px;
+  border-bottom: 1px dotted #666666;
+  padding-bottom: 8px;
 }
 
 .testimonials_content_customer_name::after {
@@ -448,20 +453,23 @@ th:before {
 }
 
 .footer {
-  height: 450px;
+  width: 100%;
+  background: url(images/map.png) no-repeat;
+  background-position: right;
+  background-size: 50%;
 }
 
 .footer_content {
   height: 348px;
-  background: url(/images/map.png) 100% no-repeat;
   margin: 0 auto;
-  padding-left: 230px;
+  width: 1020px;
 }
 
 .footer_content_contacts_table {
   margin: 0;
   padding-top: 30px;
   padding-left: 50px;
+  position: relative;
 }
 
 .footer_content_contacts_row {
@@ -512,19 +520,20 @@ th:before {
 }
 
 .footer_content_contacts_row:first-child:before {
-  content: url(/images/point.png);
+  content: url(images/point.png);
   position: absolute;
-  left: 230px;
+  left: 20px;
+
 }
 
 .phone:before {
-  content: url(/images/phone.png);
+  content: url(images/phone.png);
   position: absolute;
-  left: 235px;
+  left: 25px;
 }
 
 .mail:before {
-  content: url(/images/mail.png);
+  content: url(images/mail.png);
   position: absolute;
-  left: 230px;
+  left: 20px;
 }
