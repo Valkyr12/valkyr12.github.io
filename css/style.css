@@ -1,0 +1,530 @@
+﻿body {
+  min-width: 1400px;
+  margin: 0 auto;
+}
+
+.content_header {
+  width: 1020px;
+  margin: 0 auto;
+  font-family: Arial;
+  height: 115px;
+}
+
+.logo {
+  float: left;
+  margin-top: 35px;
+  color: #ee8129;
+  font-size: 32px;
+}
+
+.logo::after {
+  content: ' NAME';
+  color: #3070a8;
+  font: bold 40px 'Poppins', sans-serif;
+}
+
+.header_table_li {
+  display: inline-block;
+  margin-top: 77px;
+  text-transform: uppercase;
+}
+
+.header_table_ul {
+  text-align: right;
+}
+
+.logo_link {
+  text-decoration: none;
+  color: #989898;
+  padding: 40px 15px;
+}
+
+.logo_link:hover {
+  color: #3070a8;
+  border-bottom: 5px solid #3070a8;
+}
+
+.banner {
+  background: url(https://github.com/Valkyr12/study/blob/master/banner.jpg?raw=true) center 0 no-repeat;
+}
+
+.content_banner {
+  border: none;
+  width: 1020px;
+  margin: 0 auto;
+  height: 585px;
+  font-family: Arial;
+}
+
+.banner_text_title {
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 0;
+  padding-top: 150px;
+  font: 24px 'Poppins', sans-serif;
+}
+
+.banner_text_main {
+  color: white;
+  text-align: center;
+  font: bold 50px 'Poppins', sans-serif;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+
+.banner_text_footer {
+  color: white;
+  text-align: center;
+  font: italic 14px 'Poppins', sans-serif;
+  ;
+  text-shadow: 0px 3px 2px #253e51;
+  margin-bottom: 40px;
+}
+
+.banner_form {
+  text-align: center;
+}
+
+.banner_input {
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0);
+  text-transform: uppercase;
+  color: white;
+  padding: 20px 65px;
+  font: 18px 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.services {
+  height: 500px;
+}
+
+.services_title {
+  text-align: center;
+  color: #41525c;
+  text-transform: uppercase;
+  font: bold 30px Trebuchet MS;
+  padding-top: 30px;
+}
+
+.services_content_main {
+  display: flex;
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.services_content_protect,
+.services_content_alert,
+.services_content_detect {
+  flex-grow: 1;
+  margin: 20px;
+}
+
+.services_content_title {
+  color: #3070a8;
+  font: 26px Arial;
+  text-transform: uppercase;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.protect_img {
+  height: 141px;
+  width: 141px;
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.services_content {
+  text-align: center;
+  color: #999999;
+  font: 14px Trebuchet MS;
+  line-height: 26px;
+}
+
+.middle-section {
+  height: 577px;
+  background-image: url(https://raw.githubusercontent.com/Valkyr12/valkyr.github.io/master/homework/bg.png);
+  background-size: cover;
+}
+
+.content_middle-section {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.middle-section_content_main-title {
+  color: #ee8129;
+  font: 27px Trebuchet MS;
+  text-align: left;
+  text-transform: uppercase;
+  padding-top: 75px;
+  line-height: 50px;
+  padding-right: 300px;
+}
+
+.middle-section_content_table-title {
+  font: italic 17px 'Poppins', sans-serif;
+  color: #ffffff;
+}
+
+.middle-section_table-ul {
+  padding-left: 30px;
+}
+
+.middle-section_table_li {
+  color: #9d9d9d;
+  padding: 20px 200px 20px 0px;
+  font: 16px Arial;
+}
+
+.blue_li {
+  color: #3070a8;
+}
+
+.pricing {
+  height: 700px;
+}
+
+.pricing_title {
+  color: #41525c;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  font: bold 30px Trebuchet MS;
+}
+
+.offers {
+  margin: 0 auto;
+  width: 896px;
+  margin-top: 50px;
+}
+
+.orange,
+.content_blue,
+.content_orange,
+.content_green {
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.blue,
+.green {
+  width: 291px;
+  height: 70px;
+  border: 1px solid #e8eaec;
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: center;
+  border-bottom: none;
+}
+
+.blue {
+  background-color: #37c2d3;
+  border-radius: 6px 0px 0px;
+  border-right: none;
+}
+
+.green {
+  background-color: #1cb79a;
+  border-radius: 0px 6px 0px 0px;
+  border-left: none;
+}
+
+.orange {
+  width: 296px;
+  height: 70px;
+  background-color: #ee8129;
+  padding: 10px 0;
+  border-radius: 6px 6px 0px 0px;
+  box-shadow: 0px 0px 15px #aba9a9;
+  position: relative;
+}
+
+.content_blue,
+.content_green {
+  width: 291px;
+  height: 380px;
+  border: 1px solid #e8eaec;
+  border-top: none;
+}
+
+.content_blue {
+  border-radius: 0px 0px 0px 6px;
+  border-right: none;
+}
+
+.content_green {
+  border-radius: 0px 0px 6px 0px;
+  border-left: none;
+}
+
+.content_orange {
+  width: 296px;
+  height: 400px;
+  border: 3px solid #ee8129;
+  border-top: none;
+  box-sizing: border-box;
+  border-radius: 0px 0px 6px 6px;
+  box-shadow: 0px 0px 15px #aba9a9;
+}
+
+.offers_title,
+.title_content {
+  color: white;
+  font: bold 22px Trebuchet MS;
+  vertical-align: top;
+  line-height: 24px;
+}
+
+.title_content {
+  color: #35495a;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+sub,
+sup {
+  font: bold 18px Trebuchet MS;
+}
+
+sup {
+  vertical-align: 35px;
+}
+
+sub {
+  vertical-align: -5px;
+}
+
+.big {
+  font: bold 68px Trebuchet MS;
+  margin: 0;
+  padding: 0;
+  color: #35495a;
+}
+
+.table {
+  width: 260px;
+  height: 135px;
+  border: 1px solid white;
+  border-collapse: collapse;
+  color: #888c94;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 20px;
+}
+
+tr:nth-child(odd) {
+  background-color: #edf5fd;
+}
+
+tr:nth-child(even) {
+  background-color: #f5f5f6;
+}
+
+td,
+th {
+  padding-left: 35px;
+  font: 16px Trebuchet MS;
+  letter-spacing: 0.4px;
+}
+
+td:before,
+th:before {
+  content: url(http://rgho.st/7YpwlBM5N/image.png);
+  margin-right: 15px;
+}
+
+.pricing_input:active,
+.input_orange:active {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.pricing_input {
+  margin: 15px 0 12px 0;
+  padding: 14px 74px;
+  color: white;
+  background-color: #3371a6;
+  border: none;
+  border-radius: 6px;
+  font: bold 14px Trebuchet MS;
+  outline: none;
+  border-bottom: 3px solid #16436a;
+  cursor: pointer;
+}
+
+.input_orange {
+  border: none;
+  background-color: #ee8129;
+  border-bottom: 3px solid #b1561b;
+  margin: 15px 0 12px 0;
+  padding: 14px 74px;
+  color: white;
+  border-radius: 6px;
+  font: bold 14px Trebuchet MS;
+  cursor: pointer;
+}
+
+.testimonials {
+  background-image: url(https://raw.githubusercontent.com/Alx100/alx100.github.io/master/Markup_hw/GoIT_front_les6/task2/background.png);
+  height: 315px;
+}
+
+.testimonials_content {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.testimonials_content_title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ee8129;
+  font: 32px Trebuchet MS;
+  padding: 50px;
+}
+
+.testimonials_content_title:after {
+  content: ' client says';
+  color: #3170a8;
+  font: bolder 32px Trebuchet MS;
+}
+
+.testimonials_content_customer_mention {
+  color: #666666;
+  text-align: justify;
+}
+
+.testimonials_content_mention {
+  width: 364px;
+  height: 98px;
+  padding: 0 15px 0 15px;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+  position: relative;
+  font: 14px Trebuchet MS;
+}
+
+.testimonials_content_customer_name {
+  color: #3070a8;
+  font-style: italic;
+  border-bottom: 1px dashed #666666;
+  padding-bottom: 10px;
+}
+
+.testimonials_content_customer_name::after {
+  content: " Customer";
+  float: right;
+}
+
+.testimonials_content_main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.testimonials_customer_img {
+  margin: 0 26px;
+}
+
+.testimonials_content_mention:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 37px;
+  border-style: solid;
+  border-width: 12px 16px 12px 0;
+  border-color: transparent #f7f7f7 transparent transparent
+}
+
+.footer {
+  height: 450px;
+}
+
+.footer_content {
+  height: 348px;
+  background: url(https://raw.githubusercontent.com/Valkyr12/valkyr.github.io/master/homework/map.png) 100% no-repeat;
+  margin: 0 auto;
+  padding-left: 230px;
+}
+
+.footer_content_contacts_table {
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.footer_content_contacts_row {
+  list-style-type: none;
+  font: 18px Trebuchet MS;
+  color: #666666;
+  padding: 5px;
+}
+
+.last_contacts {
+  padding-top: 5px;
+  margin-top: 12px;
+}
+
+.footer_content_contacts_socials {
+   padding-top: 6px;
+}
+
+.footer_content_socials_img {
+  padding: 22px;
+  padding-left: 0;
+}
+
+.footer_bottom {
+  background-color: #3070a8;
+  height: 102px;
+  padding: 0;
+}
+
+.footer_bottom_title {
+  text-align: center;
+  color: #fff;
+  font: 16px Trebuchet MS;
+  padding-top: 22px;
+  margin: 0;
+}
+
+.footer_bottom_sign {
+  text-align: center;
+  color: #fff;
+  font: 16px Trebuchet MS;
+}
+
+.footer_bottom_sign:after {
+  content: ' IconicGraphics.com';
+  color: #1d1c1c;
+  font: bold 16px Trebuchet MS;
+}
+
+.footer_content_contacts_row:first-child:before {
+  content: url(https://raw.githubusercontent.com/Valkyr12/valkyr.github.io/master/homework/point.png);
+  position: absolute;
+  left: 230px;
+}
+
+.phone:before {  
+  content: url(https://raw.githubusercontent.com/Valkyr12/valkyr.github.io/master/homework/phone.png);
+  position: absolute;
+  left: 235px;
+}
+
+.mail:before {  
+  content: url(https://raw.githubusercontent.com/Valkyr12/valkyr.github.io/master/homework/mail.png);
+  position: absolute;
+  left: 230px;
+}
