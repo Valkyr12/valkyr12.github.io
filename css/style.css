@@ -45,7 +45,7 @@
 }
 
 .banner {
-  background: url(https://github.com/Valkyr12/study/blob/master/banner.jpg?raw=true) center 0 no-repeat;
+  background: url(images/banner.png) center 0 no-repeat;
 }
 
 .content_banner {
@@ -148,7 +148,7 @@
 
 .middle-section {
   height: 577px;
-  background-image: url(https://raw.githubusercontent.com/Valkyr12/valkyr.github.io/master/homework/bg.png);
+  background-image: url(images/bg.png);
   background-size: cover;
 }
 
@@ -338,7 +338,7 @@ th {
 
 td:before,
 th:before {
-  content: url(http://rgho.st/7YpwlBM5N/image.png);
+  content: url(images/image.png);
   margin-right: 15px;
 }
 
@@ -375,7 +375,7 @@ th:before {
 }
 
 .testimonials {
-  background-image: url(https://raw.githubusercontent.com/Alx100/alx100.github.io/master/Markup_hw/GoIT_front_les6/task2/background.png);
+  background-image: url(images/background.png);
   height: 315px;
 }
 
@@ -453,7 +453,7 @@ th:before {
 
 .footer_content {
   height: 348px;
-  background: url(https://raw.githubusercontent.com/Valkyr12/valkyr.github.io/master/homework/map.png) 100% no-repeat;
+  background: url(images/map.png) 100% no-repeat;
   margin: 0 auto;
   padding-left: 230px;
 }
@@ -512,19 +512,19 @@ th:before {
 }
 
 .footer_content_contacts_row:first-child:before {
-  content: url(https://raw.githubusercontent.com/Valkyr12/valkyr.github.io/master/homework/point.png);
+  content: url(images/point.png);
   position: absolute;
   left: 230px;
 }
 
-.phone:before {  
-  content: url(https://raw.githubusercontent.com/Valkyr12/valkyr.github.io/master/homework/phone.png);
+.phone:before {
+  content: url(images/phone.png);
   position: absolute;
   left: 235px;
 }
 
-.mail:before {  
-  content: url(https://raw.githubusercontent.com/Valkyr12/valkyr.github.io/master/homework/mail.png);
+.mail:before {
+  content: url(images/mail.png);
   position: absolute;
   left: 230px;
 }
